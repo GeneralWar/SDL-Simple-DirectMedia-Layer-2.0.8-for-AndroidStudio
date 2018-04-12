@@ -1,0 +1,1409 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Windows - 10.0.16299 - AMD64
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_c13d2"
+[1/2] Building C object CMakeFiles/cmTC_c13d2.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_c13d2
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_b7581"
+[1/2] Building C object CMakeFiles/cmTC_b7581.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_b7581
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_b7581 "E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" "-LE:\\Library\\Android\\SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib -LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b7581.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib\\crtend_android.o"
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_b7581"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_b7581.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_b7581]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@thumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@armv7]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@armv7@thumb]
+  link line: [ "E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_b7581 "E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" "-LE:\\Library\\Android\\SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib -LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b7581.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld] ==> ignore
+    arg [--sysroot=E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm] ==> ignore
+    arg [-X] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b7581] ==> ignore
+    arg [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
+    arg [-LE:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm] ==> dir [E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm]
+    arg [-LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib] ==> dir [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib]
+    arg [-LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LE:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-LE:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib] ==> dir [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_b7581.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib\crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm] ==> [E:/Library/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/../lib] ==> [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib]
+  collapse library dir [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib]
+  collapse library dir [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib] ==> [E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib]
+  implicit libs: [dl;c;dl]
+  implicit dirs: [E:/Library/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm;E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_0cf1e"
+[1/2] Building C object CMakeFiles/cmTC_0cf1e.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_0cf1e
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_068f4"
+[1/2] Building C object CMakeFiles/cmTC_068f4.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_068f4
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ef348"
+[1/2] Building C object CMakeFiles/cmTC_ef348.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_ef348
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_32027"
+[1/2] Building C object CMakeFiles/cmTC_32027.dir/src.c.o
+[2/2] Linking C executable cmTC_32027
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_0d438"
+[1/2] Building C object CMakeFiles/cmTC_0d438.dir/src.c.o
+[2/2] Linking C executable cmTC_0d438
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2f529"
+[1/2] Building C object CMakeFiles/cmTC_2f529.dir/src.c.o
+[2/2] Linking C executable cmTC_2f529
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_8f688"
+[1/2] Building C object CMakeFiles/cmTC_8f688.dir/src.c.o
+[2/2] Linking C executable cmTC_8f688
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_8f5a1"
+[1/2] Building C object CMakeFiles/cmTC_8f5a1.dir/src.c.o
+[2/2] Linking C executable cmTC_8f5a1
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2afc3"
+[1/2] Building C object CMakeFiles/cmTC_2afc3.dir/src.c.o
+[2/2] Linking C executable cmTC_2afc3
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_df535"
+[1/2] Building C object CMakeFiles/cmTC_df535.dir/src.c.o
+clang.exe: warning: -Wl,--no-undefined: 'linker' input unused [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_df535
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_cb9f5"
+[1/2] Building C object CMakeFiles/cmTC_cb9f5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_cb9f5
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_c0c44"
+[1/2] Building C object CMakeFiles/cmTC_c0c44.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c0c44
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_fa6fe"
+[1/2] Building C object CMakeFiles/cmTC_fa6fe.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fa6fe
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_9bac4"
+[1/2] Building C object CMakeFiles/cmTC_9bac4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9bac4
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_596c4"
+[1/2] Building C object CMakeFiles/cmTC_596c4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_596c4
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_635fe"
+[1/2] Building C object CMakeFiles/cmTC_635fe.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_635fe
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f025e"
+[1/2] Building C object CMakeFiles/cmTC_f025e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f025e
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_54a77"
+[1/2] Building C object CMakeFiles/cmTC_54a77.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_54a77
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_3c0d9"
+[1/2] Building C object CMakeFiles/cmTC_3c0d9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3c0d9
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_1bb26"
+[1/2] Building C object CMakeFiles/cmTC_1bb26.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1bb26
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_69192"
+[1/2] Building C object CMakeFiles/cmTC_69192.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_69192
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_6b699"
+[1/2] Building C object CMakeFiles/cmTC_6b699.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6b699
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_40bca"
+[1/2] Building C object CMakeFiles/cmTC_40bca.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_40bca
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_6f1c8"
+[1/2] Building C object CMakeFiles/cmTC_6f1c8.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6f1c8
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f689d"
+[1/2] Building C object CMakeFiles/cmTC_f689d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f689d
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f285a"
+[1/2] Building C object CMakeFiles/cmTC_f285a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f285a
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_71bf7"
+[1/2] Building C object CMakeFiles/cmTC_71bf7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_71bf7
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_cd4aa"
+[1/2] Building C object CMakeFiles/cmTC_cd4aa.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_cd4aa
+
+
+Determining size of size_t passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_663fa"
+[1/2] Building C object CMakeFiles/cmTC_663fa.dir/SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_663fa
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_200c3"
+[1/2] Building C object CMakeFiles/cmTC_200c3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_200c3
+
+File E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_960ab"
+[1/2] Building C object CMakeFiles/cmTC_960ab.dir/src.c.o
+[2/2] Linking C executable cmTC_960ab
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_de9bf"
+[1/2] Building C object CMakeFiles/cmTC_de9bf.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_de9bf
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_66b56"
+[1/2] Building C object CMakeFiles/cmTC_66b56.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_66b56
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_9e3a1"
+[1/2] Building C object CMakeFiles/cmTC_9e3a1.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'calloc' is a builtin with type 'void *(unsigned int, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_9e3a1
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_e7fd9"
+[1/2] Building C object CMakeFiles/cmTC_e7fd9.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'realloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'realloc' is a builtin with type 'void *(void *, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_e7fd9
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_281dd"
+[1/2] Building C object CMakeFiles/cmTC_281dd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_281dd
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_b5609"
+[1/2] Building C object CMakeFiles/cmTC_b5609.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b5609
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ff678"
+[1/2] Building C object CMakeFiles/cmTC_ff678.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ff678
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_1d087"
+[1/2] Building C object CMakeFiles/cmTC_1d087.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1d087
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_96ac6"
+[1/2] Building C object CMakeFiles/cmTC_96ac6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_96ac6
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_d3177"
+[1/2] Building C object CMakeFiles/cmTC_d3177.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d3177
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_255f8"
+[1/2] Building C object CMakeFiles/cmTC_255f8.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_255f8
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_91a65"
+[1/2] Building C object CMakeFiles/cmTC_91a65.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_91a65
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_8ad09"
+[1/2] Building C object CMakeFiles/cmTC_8ad09.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_8ad09
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_bd4c0"
+[1/2] Building C object CMakeFiles/cmTC_bd4c0.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_bd4c0
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_d6613"
+[1/2] Building C object CMakeFiles/cmTC_d6613.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strlen' is a builtin with type 'unsigned int (const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d6613
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_10dea"
+[1/2] Building C object CMakeFiles/cmTC_10dea.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strlcpy' is a builtin with type 'unsigned int (char *, const char *, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_10dea
+
+
+Determining if the function strlcat exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_16462"
+[1/2] Building C object CMakeFiles/cmTC_16462.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcat' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strlcat' is a builtin with type 'unsigned int (char *, const char *, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_16462
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_c60df"
+[1/2] Building C object CMakeFiles/cmTC_c60df.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_c60df
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_78a08"
+[1/2] Building C object CMakeFiles/cmTC_78a08.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_78a08
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_bad24"
+[1/2] Building C object CMakeFiles/cmTC_bad24.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_bad24
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_38291"
+[1/2] Building C object CMakeFiles/cmTC_38291.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_38291
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f5b91"
+[1/2] Building C object CMakeFiles/cmTC_f5b91.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f5b91
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_73f4e"
+[1/2] Building C object CMakeFiles/cmTC_73f4e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_73f4e
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_77860"
+[1/2] Building C object CMakeFiles/cmTC_77860.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_77860
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_7336d"
+[1/2] Building C object CMakeFiles/cmTC_7336d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7336d
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_0c114"
+[1/2] Building C object CMakeFiles/cmTC_0c114.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_0c114
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_a131e"
+[1/2] Building C object CMakeFiles/cmTC_a131e.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_a131e
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_463b1"
+[1/2] Building C object CMakeFiles/cmTC_463b1.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_463b1
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f9092"
+[1/2] Building C object CMakeFiles/cmTC_f9092.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f9092
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2e1a0"
+[1/2] Building C object CMakeFiles/cmTC_2e1a0.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsscanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'vsscanf' is a builtin with type 'int (const char *restrict, const char *restrict, __builtin_va_list)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_2e1a0
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_dd5dd"
+[1/2] Building C object CMakeFiles/cmTC_dd5dd.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned int, const char *, __builtin_va_list)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_dd5dd
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_a141f"
+[1/2] Building C object CMakeFiles/cmTC_a141f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a141f
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_33a61"
+[1/2] Building C object CMakeFiles/cmTC_33a61.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_33a61
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2cd0b"
+[1/2] Building C object CMakeFiles/cmTC_2cd0b.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_2cd0b
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_1ab0e"
+[1/2] Building C object CMakeFiles/cmTC_1ab0e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1ab0e
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_bca66"
+[1/2] Building C object CMakeFiles/cmTC_bca66.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_bca66
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_fe09f"
+[1/2] Building C object CMakeFiles/cmTC_fe09f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_fe09f
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f064b"
+[1/2] Building C object CMakeFiles/cmTC_f064b.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f064b
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_435d9"
+[1/2] Building C object CMakeFiles/cmTC_435d9.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'atan' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_435d9
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_e9e5a"
+[1/2] Building C object CMakeFiles/cmTC_e9e5a.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan2' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'atan2' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_e9e5a
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_0e41f"
+[1/2] Building C object CMakeFiles/cmTC_0e41f.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_0e41f
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_86871"
+[1/2] Building C object CMakeFiles/cmTC_86871.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'copysign' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_86871
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_96df8"
+[1/2] Building C object CMakeFiles/cmTC_96df8.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_96df8
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_e9286"
+[1/2] Building C object CMakeFiles/cmTC_e9286.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cosf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'cosf' is a builtin with type 'float (float)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_e9286
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_029a3"
+[1/2] Building C object CMakeFiles/cmTC_029a3.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'fabs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'fabs' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_029a3
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_7570d"
+[1/2] Building C object CMakeFiles/cmTC_7570d.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_7570d
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ceda3"
+[1/2] Building C object CMakeFiles/cmTC_ceda3.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'log' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_ceda3
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_c782c"
+[1/2] Building C object CMakeFiles/cmTC_c782c.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_c782c
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_203da"
+[1/2] Building C object CMakeFiles/cmTC_203da.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'scalbn' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'scalbn' is a builtin with type 'double (double, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_203da
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_367c6"
+[1/2] Building C object CMakeFiles/cmTC_367c6.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'sin' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_367c6
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_5cb91"
+[1/2] Building C object CMakeFiles/cmTC_5cb91.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sinf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'sinf' is a builtin with type 'float (float)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_5cb91
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2daef"
+[1/2] Building C object CMakeFiles/cmTC_2daef.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_2daef
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_6ab1e"
+[1/2] Building C object CMakeFiles/cmTC_6ab1e.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrtf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'sqrtf' is a builtin with type 'float (float)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_6ab1e
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_3f7f7"
+[1/2] Building C object CMakeFiles/cmTC_3f7f7.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'tan' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_3f7f7
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_bf953"
+[1/2] Building C object CMakeFiles/cmTC_bf953.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'tanf' is a builtin with type 'float (float)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_bf953
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_740a4"
+[1/2] Building C object CMakeFiles/cmTC_740a4.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'acos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'acos' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_740a4
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_d06c0"
+[1/2] Building C object CMakeFiles/cmTC_d06c0.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'asin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'asin' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d06c0
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_502c4"
+[1/2] Building C object CMakeFiles/cmTC_502c4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_502c4
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_e5504"
+[1/2] Building C object CMakeFiles/cmTC_e5504.dir/src.c.o
+[2/2] Linking C executable cmTC_e5504
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
+Determining if the function dlopen exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_c41a1"
+[1/2] Building C object CMakeFiles/cmTC_c41a1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c41a1
+
+
+Performing C SOURCE FILE Test HAVE_ARM_MODE succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_d5e6f"
+[1/2] Building C object CMakeFiles/cmTC_d5e6f.dir/src.c.o
+[2/2] Linking C executable cmTC_d5e6f
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test VULKAN_PASSED_ANDROID_CHECKS succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4c851"
+[1/2] Building C object CMakeFiles/cmTC_4c851.dir/src.c.o
+[2/2] Linking C executable cmTC_4c851
+
+Source file was:
+
+    #if defined(__ARM_ARCH) && __ARM_ARCH < 7
+    #error Vulkan doesn't work on this configuration
+    #endif
+    int main()
+    {
+        return 0;
+    }
+    
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_d53ed"
+[1/2] Building C object CMakeFiles/cmTC_d53ed.dir/src.c.o
+[2/2] Linking C executable cmTC_d53ed
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_a0b5a"
+[1/2] Building C object CMakeFiles/cmTC_a0b5a.dir/src.c.o
+[2/2] Linking C executable cmTC_a0b5a
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_cd4c6"
+[1/2] Building C object CMakeFiles/cmTC_cd4c6.dir/src.c.o
+[2/2] Linking C executable cmTC_cd4c6
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_5b922"
+[1/2] Building C object CMakeFiles/cmTC_5b922.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5b922
+
+

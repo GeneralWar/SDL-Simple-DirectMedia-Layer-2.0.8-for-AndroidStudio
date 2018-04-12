@@ -1,0 +1,818 @@
+
+{
+	"buildFiles" : [ "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"SDL2-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "SDL2",
+			"buildCommand" : "E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target SDL2",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/SDL.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/SDL_assert.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/SDL_dataqueue.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/SDL_error.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/SDL_hints.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/SDL_log.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/atomic/SDL_atomic.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC   -marm    -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/atomic/SDL_spinlock.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/SDL_audio.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/SDL_audiocvt.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/SDL_audiodev.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/SDL_audiotypecvt.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/SDL_mixer.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/SDL_wave.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/cpuinfo/SDL_cpuinfo.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/dynapi/SDL_dynapi.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_clipboardevents.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_dropevents.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_events.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_gesture.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_keyboard.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_mouse.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_quit.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_touch.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/events/SDL_windowevents.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/file/SDL_rwops.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/e_atan2.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/e_fmod.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/e_log.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/e_log10.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/e_pow.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/e_rem_pio2.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/e_sqrt.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/k_cos.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/k_rem_pio2.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/k_sin.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/k_tan.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/s_atan.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/s_copysign.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/s_cos.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/s_fabs.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/s_floor.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/s_scalbn.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/s_sin.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/libm/s_tan.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/SDL_d3dmath.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/SDL_render.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/SDL_yuv_sw.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/direct3d/SDL_render_d3d.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/direct3d/SDL_shaders_d3d.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/direct3d11/SDL_render_d3d11.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/direct3d11/SDL_shaders_d3d11.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/opengl/SDL_render_gl.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/opengl/SDL_shaders_gl.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/opengles/SDL_render_gles.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/opengles2/SDL_render_gles2.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/opengles2/SDL_shaders_gles2.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/psp/SDL_render_psp.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/software/SDL_blendfillrect.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/software/SDL_blendline.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/software/SDL_blendpoint.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/software/SDL_drawline.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/software/SDL_drawpoint.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/software/SDL_render_sw.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/render/software/SDL_rotate.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/stdlib/SDL_getenv.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/stdlib/SDL_iconv.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/stdlib/SDL_malloc.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/stdlib/SDL_qsort.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/stdlib/SDL_stdlib.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/stdlib/SDL_string.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/thread/SDL_thread.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/timer/SDL_timer.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_RLEaccel.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_blit.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_blit_0.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_blit_1.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_blit_A.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_blit_N.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_blit_auto.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_blit_copy.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_blit_slow.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_bmp.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_clipboard.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_egl.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_fillrect.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_pixels.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_rect.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_shape.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_stretch.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_surface.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_video.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_vulkan_utils.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/SDL_yuv.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/yuv2rgb/yuv_rgb.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/joystick/SDL_gamecontroller.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/joystick/SDL_joystick.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/haptic/SDL_haptic.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/power/SDL_power.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/dummy/SDL_dummyaudio.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/disk/SDL_diskaudio.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/loadso/dlopen/SDL_sysloadso.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/dummy/SDL_nullevents.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/dummy/SDL_nullframebuffer.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/dummy/SDL_nullvideo.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/core/android/SDL_android.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/audio/android/SDL_androidaudio.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/filesystem/android/SDL_sysfilesystem.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/haptic/android/SDL_syshaptic.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/joystick/android/SDL_sysjoystick.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/joystick/steam/SDL_steamcontroller.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/power/android/SDL_syspower.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/timer/unix/SDL_systimer.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidclipboard.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidevents.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidgl.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidkeyboard.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidmessagebox.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidmouse.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidtouch.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidvideo.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidvulkan.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/android/SDL_androidwindow.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/thread/pthread/SDL_systhread.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/thread/pthread/SDL_sysmutex.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/thread/pthread/SDL_syscond.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/thread/pthread/SDL_systls.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DSDL2_EXPORTS -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/thread/pthread/SDL_syssem.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/Projects/NetPhone/TestForSDL/sdl/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so",
+			"toolchain" : "969890345"
+		},
+		"SDL2main-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "SDL2main",
+			"buildCommand" : "E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target SDL2main",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -DGL_GLEXT_PROTOTYPES -DUSING_GENERATED_CONFIG_H -Iinclude -IE:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\include  -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall  -O0 -fno-limit-debug-info       -c ",
+					"src" : "E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/main/android/SDL_android_main.c",
+					"workingDirectory" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi-v7a/libSDL2main.a",
+			"toolchain" : "969890345"
+		}
+	},
+	"toolchains" : 
+	{
+		"969890345" : 
+		{
+			"cCompilerExecutable" : "E:/Library/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/Library/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

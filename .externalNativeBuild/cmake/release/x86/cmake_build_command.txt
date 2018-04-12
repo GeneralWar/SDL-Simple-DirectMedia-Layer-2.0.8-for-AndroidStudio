@@ -1,0 +1,14 @@
+Executable : E:\Library\Android\SDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\Projects\NetPhone\TestForSDL\sdl\jni\sdl
+-BE:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\release\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Projects\NetPhone\TestForSDL\sdl\build\intermediates\cmake\release\obj\x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=E:\Library\Android\SDK\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=E:\Library\Android\SDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

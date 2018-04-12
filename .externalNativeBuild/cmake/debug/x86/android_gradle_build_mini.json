@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "E:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "SDL2-Debug-x86": {
+      "artifactName": "SDL2",
+      "buildCommand": "E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\x86 --target SDL2",
+      "abi": "x86",
+      "output": "E:\\Projects\\NetPhone\\TestForSDL\\sdl\\build\\intermediates\\cmake\\debug\\obj\\x86\\libSDL2.so"
+    },
+    "SDL2main-Debug-x86": {
+      "artifactName": "SDL2main",
+      "buildCommand": "E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\x86 --target SDL2main",
+      "abi": "x86",
+      "output": "E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\x86\\libSDL2main.a"
+    }
+  }
+}

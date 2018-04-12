@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "E:\\Projects\\NetPhone\\Android\\sdl\\jni\\sdl\\Android.mk"
+  ],
+  "cleanCommands": [
+    "E:\\Library\\Android\\SDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\Projects\\NetPhone\\Android\\sdl\\jni\\sdl\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dE:/Projects/NetPhone/Android/sdl/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\Projects\\NetPhone\\Android\\sdl\\build\\intermediates\\ndkBuild\\release\\lib APP_PLATFORM\u003dandroid-14 clean"
+  ],
+  "libraries": {
+    "SDL2-release-x86": {
+      "artifactName": "SDL2",
+      "buildCommand": "E:\\Library\\Android\\SDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\Projects\\NetPhone\\Android\\sdl\\jni\\sdl\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dE:/Projects/NetPhone/Android/sdl/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\Projects\\NetPhone\\Android\\sdl\\build\\intermediates\\ndkBuild\\release\\lib APP_PLATFORM\u003dandroid-14 E:/Projects/NetPhone/Android/sdl/build/intermediates/ndkBuild/release/obj/local/x86/libSDL2.so",
+      "abi": "x86",
+      "output": "E:\\Projects\\NetPhone\\Android\\sdl\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libSDL2.so"
+    }
+  }
+}

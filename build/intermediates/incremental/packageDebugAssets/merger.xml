@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Projects\NetPhone\TestForSDL\sdl\src\main\assets"/><source path="E:\Projects\NetPhone\TestForSDL\sdl\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\Projects\NetPhone\TestForSDL\sdl\src\debug\assets"/></dataSet></merger>

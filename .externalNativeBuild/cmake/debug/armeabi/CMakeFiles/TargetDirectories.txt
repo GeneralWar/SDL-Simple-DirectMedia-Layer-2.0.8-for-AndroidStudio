@@ -1,0 +1,9 @@
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/SDL2main.dir
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/install.dir
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/install/local.dir
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/SDL2.dir
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/install/strip.dir
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/uninstall.dir
+E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/list_install_components.dir

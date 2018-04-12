@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "E:\\Projects\\NetPhone\\TestForSDL\\sdl\\jni\\sdl\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+  ],
+  "libraries": {
+    "SDL2-Debug-armeabi": {
+      "artifactName": "SDL2",
+      "buildCommand": "E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\armeabi --target SDL2",
+      "abi": "armeabi",
+      "output": "E:\\Projects\\NetPhone\\TestForSDL\\sdl\\build\\intermediates\\cmake\\debug\\obj\\armeabi\\libSDL2.so"
+    },
+    "SDL2main-Debug-armeabi": {
+      "artifactName": "SDL2main",
+      "buildCommand": "E:\\Library\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\armeabi --target SDL2main",
+      "abi": "armeabi",
+      "output": "E:\\Projects\\NetPhone\\TestForSDL\\sdl\\.externalNativeBuild\\cmake\\debug\\armeabi\\libSDL2main.a"
+    }
+  }
+}

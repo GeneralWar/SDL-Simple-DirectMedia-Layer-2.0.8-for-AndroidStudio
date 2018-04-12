@@ -1,0 +1,420 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_7b009"
+[1/2] Building C object CMakeFiles/cmTC_7b009.dir/src.c.o
+FAILED: E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot   -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_7b009.dir/src.c.o   -c E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\src.c
+clang.exe: error: unknown argument: '-mpreferred-stack-boundary=2'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_0e5c7"
+[1/2] Building C object CMakeFiles/cmTC_0e5c7.dir/src.c.o
+FAILED: E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot   -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DHAVE_ALTIVEC_H_HDR -maltivec -o CMakeFiles/cmTC_0e5c7.dir/src.c.o   -c E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\src.c
+clang.exe: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+In file included from E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\src.c:2:
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:27:2: error: "AltiVec support not enabled"
+#error "AltiVec support not enabled"
+ ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:62:19: error: unknown type name 'vector'
+static __inline__ vector signed char __ATTRS_o_ai vec_perm(
+                  ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:62:26: error: expected identifier or '('
+static __inline__ vector signed char __ATTRS_o_ai vec_perm(
+                         ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:65:19: error: unknown type name 'vector'
+static __inline__ vector unsigned char __ATTRS_o_ai
+                  ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:65:26: error: expected identifier or '('
+static __inline__ vector unsigned char __ATTRS_o_ai
+                         ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:69:19: error: unknown type name 'vector'
+static __inline__ vector bool char __ATTRS_o_ai
+                  ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:69:8: error: 'inline' can only appear on functions
+static __inline__ vector bool char __ATTRS_o_ai
+       ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:69:30: error: expected ';' after top level declarator
+static __inline__ vector bool char __ATTRS_o_ai
+                             ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:70:10: error: unknown type name 'vector'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+         ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:70:22: error: expected ')'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+                     ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:70:9: note: to match this '('
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+        ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:72:19: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                  ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:72:26: error: expected identifier or '('
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                         ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:76:19: error: unknown type name 'vector'
+static __inline__ vector unsigned short __ATTRS_o_ai
+                  ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:76:26: error: expected identifier or '('
+static __inline__ vector unsigned short __ATTRS_o_ai
+                         ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:80:19: error: unknown type name 'vector'
+static __inline__ vector bool short __ATTRS_o_ai vec_perm(
+                  ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:80:8: error: 'inline' can only appear on functions
+static __inline__ vector bool short __ATTRS_o_ai vec_perm(
+       ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:80:30: error: expected ';' after top level declarator
+static __inline__ vector bool short __ATTRS_o_ai vec_perm(
+                             ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:81:5: error: unknown type name 'vector'
+    vector bool short __a, vector bool short __b, vector unsigned char __c);
+    ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:81:17: error: expected ')'
+    vector bool short __a, vector bool short __b, vector unsigned char __c);
+                ^
+E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\include\altivec.h:80:58: note: to match this '('
+static __inline__ vector bool short __ATTRS_o_ai vec_perm(
+                                                         ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_04243"
+[1/2] Building C object CMakeFiles/cmTC_04243.dir/src.c.o
+FAILED: E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot   -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DHAVE_ALTIVEC -maltivec -o CMakeFiles/cmTC_04243.dir/src.c.o   -c E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\src.c
+clang.exe: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\src.c:2:11: error: unknown type name 'vector'
+          vector unsigned int vzero() {
+          ^
+E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\src.c:2:18: error: expected identifier or '('
+          vector unsigned int vzero() {
+                 ^
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_61fc9"
+[1/2] Building C object CMakeFiles/cmTC_61fc9.dir/CheckIncludeFile.c.o
+FAILED: E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot   -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -o CMakeFiles/cmTC_61fc9.dir/CheckIncludeFile.c.o   -c E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: 'libunwind.h' file not found
+#include <libunwind.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function abs exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_9cfbc"
+[1/2] Building C object CMakeFiles/cmTC_9cfbc.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'abs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'abs' is a builtin with type 'int (int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_9cfbc
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_9cfbc.dir/CheckFunctionExists.c.o  -o cmTC_9cfbc  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'abs'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function bcopy exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_202eb"
+[1/2] Building C object CMakeFiles/cmTC_202eb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_202eb
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_202eb.dir/CheckFunctionExists.c.o  -o cmTC_202eb  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'bcopy'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_238e6"
+[1/2] Building C object CMakeFiles/cmTC_238e6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_238e6
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_238e6.dir/CheckFunctionExists.c.o  -o cmTC_238e6  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_strrev'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_5ef28"
+[1/2] Building C object CMakeFiles/cmTC_5ef28.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5ef28
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_5ef28.dir/CheckFunctionExists.c.o  -o cmTC_5ef28  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_strupr'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_fb98d"
+[1/2] Building C object CMakeFiles/cmTC_fb98d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_fb98d
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_fb98d.dir/CheckFunctionExists.c.o  -o cmTC_fb98d  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_strlwr'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_6aa10"
+[1/2] Building C object CMakeFiles/cmTC_6aa10.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6aa10
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_6aa10.dir/CheckFunctionExists.c.o  -o cmTC_6aa10  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'itoa'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_5592e"
+[1/2] Building C object CMakeFiles/cmTC_5592e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5592e
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_5592e.dir/CheckFunctionExists.c.o  -o cmTC_5592e  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_ltoa'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2e152"
+[1/2] Building C object CMakeFiles/cmTC_2e152.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2e152
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_2e152.dir/CheckFunctionExists.c.o  -o cmTC_2e152  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_uitoa'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_c1b5e"
+[1/2] Building C object CMakeFiles/cmTC_c1b5e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c1b5e
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_c1b5e.dir/CheckFunctionExists.c.o  -o cmTC_c1b5e  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_ultoa'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_bc85d"
+[1/2] Building C object CMakeFiles/cmTC_bc85d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_bc85d
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_bc85d.dir/CheckFunctionExists.c.o  -o cmTC_bc85d  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_i64toa'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_8da05"
+[1/2] Building C object CMakeFiles/cmTC_8da05.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8da05
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_8da05.dir/CheckFunctionExists.c.o  -o cmTC_8da05  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_ui64toa'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function atof exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_492ed"
+[1/2] Building C object CMakeFiles/cmTC_492ed.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_492ed
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_492ed.dir/CheckFunctionExists.c.o  -o cmTC_492ed  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'atof'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_a15a1"
+[1/2] Building C object CMakeFiles/cmTC_a15a1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a15a1
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_a15a1.dir/CheckFunctionExists.c.o  -o cmTC_a15a1  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_stricmp'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_fa424"
+[1/2] Building C object CMakeFiles/cmTC_fa424.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_fa424
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_fa424.dir/CheckFunctionExists.c.o  -o cmTC_fa424  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to '_strnicmp'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function fopen64 exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_42ff6"
+[1/2] Building C object CMakeFiles/cmTC_42ff6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_42ff6
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=fopen64  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_42ff6.dir/CheckFunctionExists.c.o  -o cmTC_42ff6  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'fopen64'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function fseeko64 exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_922db"
+[1/2] Building C object CMakeFiles/cmTC_922db.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_922db
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko64  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_922db.dir/CheckFunctionExists.c.o  -o cmTC_922db  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'fseeko64'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_de6f3"
+[1/2] Building C object CMakeFiles/cmTC_de6f3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_de6f3
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_de6f3.dir/CheckFunctionExists.c.o  -o cmTC_de6f3  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'sysctlbyname'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function getauxval exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_809a3"
+[1/2] Building C object CMakeFiles/cmTC_809a3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_809a3
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_809a3.dir/CheckFunctionExists.c.o  -o cmTC_809a3  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'getauxval'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_761d0"
+[1/2] Building C object CMakeFiles/cmTC_761d0.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_761d0
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_761d0.dir/CheckFunctionExists.c.o  -o cmTC_761d0  -liconv -latomic -lm && cd ."
+E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\ld: error: cannot find -liconv
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'iconv_open'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_79b46"
+[1/2] Building C object CMakeFiles/cmTC_79b46.dir/CheckFunctionExists.c.o
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'alloca' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS();
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'alloca' is a builtin with type 'void *(unsigned int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_79b46
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=alloca  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_79b46.dir/CheckFunctionExists.c.o  -o cmTC_79b46  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'alloca'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_06185"
+[1/2] Building C object CMakeFiles/cmTC_06185.dir/src.c.o
+FAILED: E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot   -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DHAVE_PTHREAD_NP_H -o CMakeFiles/cmTC_06185.dir/src.c.o   -c E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\src.c
+E:\Projects\NetPhone\TestForSDL\sdl\.externalNativeBuild\cmake\debug\x86\CMakeFiles\CMakeTmp\src.c:3:20: fatal error: 'pthread_np.h' file not found
+          #include <pthread_np.h>
+                   ^~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: E:/Projects/NetPhone/TestForSDL/sdl/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\Library\Android\SDK\cmake\3.6.4111459\bin\ninja.exe" "cmTC_a3e24"
+[1/2] Building C object CMakeFiles/cmTC_a3e24.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a3e24
+FAILED: cmd.exe /C "cd . && E:\Library\Android\SDK\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android --gcc-toolchain=E:/Library/Android/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Library/Android/SDK/ndk-bundle/sysroot -isystem E:/Library/Android/SDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -idirafter E:/Projects/NetPhone/TestForSDL/sdl/jni/sdl/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_set_name_np  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot E:/Library/Android/SDK/ndk-bundle/platforms/android-14/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_a3e24.dir/CheckFunctionExists.c.o  -o cmTC_a3e24  -latomic -lm && cd ."
+E:\Library\Android\SDK\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'pthread_set_name_np'
+clang.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
